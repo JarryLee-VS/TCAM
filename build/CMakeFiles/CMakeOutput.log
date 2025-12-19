@@ -1,0 +1,454 @@
+The target system is: Linux -  - arm
+The host system is: Linux - 5.4.0-216-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/lyu/LVGL-TCAM3/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/lyu/LVGL-TCAM3/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9fcf/fast && /usr/bin/make -f CMakeFiles/cmTC_f9fcf.dir/build.make CMakeFiles/cmTC_f9fcf.dir/build
+make[1]: Entering directory '/home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9fcf.dir/testCCompiler.c.o
+/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_f9fcf.dir/testCCompiler.c.o   -c /home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f9fcf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9fcf.dir/link.txt --verbose=1
+/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-gcc      CMakeFiles/cmTC_f9fcf.dir/testCCompiler.c.o  -o cmTC_f9fcf 
+make[1]: Leaving directory '/home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8dd62/fast && /usr/bin/make -f CMakeFiles/cmTC_8dd62.dir/build.make CMakeFiles/cmTC_8dd62.dir/build
+make[1]: Entering directory '/home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o
+/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/arm-linux-gnueabihf-gcc
+Target: arm-linux-gnueabihf
+Configured with: '/home/tcwg-buildslave/workspace/tcwg-gnu-build/snapshots/gcc.git~releases~gcc-11/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-linux-gnueabihf
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (GCC) 
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_8dd62.dir/'
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/ -isysroot /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8dd62.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mabi=aapcs-linux -mfpu=neon-vfpv4 -marm -mfloat-abi=hard -mcpu=cortex-a7 -mtls-dialect=gnu -mlibarch=armv7ve+simd -march=armv7ve+simd -version -o /tmp/ccbgnyiL.s
+GNU C17 (GCC) version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (arm-linux-gnueabihf)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/include"
+ignoring nonexistent directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include/arm-linux-gnueabihf"
+ignoring nonexistent directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include"
+ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed"
+ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include"
+ignoring nonexistent directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/arm-linux-gnueabihf"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include
+End of search list.
+GNU C17 (GCC) version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (arm-linux-gnueabihf)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 071e6e9ca4ac32027e49724efdc6b070
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_8dd62.dir/'
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o /tmp/ccbgnyiL.s
+GNU assembler version 2.37 (arm-linux-gnueabihf) using BFD version (Linaro_Binutils-2022.06) 2.37.20220122
+COMPILER_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_8dd62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dd62.dir/link.txt --verbose=1
+/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o  -o cmTC_8dd62 
+Using built-in specs.
+COLLECT_GCC=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: '/home/tcwg-buildslave/workspace/tcwg-gnu-build/snapshots/gcc.git~releases~gcc-11/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-linux-gnueabihf
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (GCC) 
+COMPILER_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'cmTC_8dd62' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'cmTC_8dd62.'
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/collect2 -plugin /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/liblto_plugin.so -plugin-opt=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdfd1td.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_8dd62 /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/crtbegin.o -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1 -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/crtend.o /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'cmTC_8dd62' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'cmTC_8dd62.'
+make[1]: Leaving directory '/home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include]
+    add: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed]
+    add: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include]
+    add: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/11.3.1/include]
+  collapse include dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed]
+  collapse include dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/include]
+  collapse include dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/11.3.1/include;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/include;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_8dd62/fast && /usr/bin/make -f CMakeFiles/cmTC_8dd62.dir/build.make CMakeFiles/cmTC_8dd62.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: '/home/tcwg-buildslave/workspace/tcwg-gnu-build/snapshots/gcc.git~releases~gcc-11/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_8dd62.dir/']
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/ -isysroot /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8dd62.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mabi=aapcs-linux -mfpu=neon-vfpv4 -marm -mfloat-abi=hard -mcpu=cortex-a7 -mtls-dialect=gnu -mlibarch=armv7ve+simd -march=armv7ve+simd -version -o /tmp/ccbgnyiL.s]
+  ignore line: [GNU C17 (GCC) version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/include"]
+  ignore line: [ignoring nonexistent directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include/arm-linux-gnueabihf"]
+  ignore line: [ignoring nonexistent directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [ignoring nonexistent directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/arm-linux-gnueabihf"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include]
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed]
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include]
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 071e6e9ca4ac32027e49724efdc6b070]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_8dd62.dir/']
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o /tmp/ccbgnyiL.s]
+  ignore line: [GNU assembler version 2.37 (arm-linux-gnueabihf) using BFD version (Linaro_Binutils-2022.06) 2.37.20220122]
+  ignore line: [COMPILER_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_8dd62]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dd62.dir/link.txt --verbose=1]
+  ignore line: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o  -o cmTC_8dd62 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: '/home/tcwg-buildslave/workspace/tcwg-gnu-build/snapshots/gcc.git~releases~gcc-11/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (GCC) ]
+  ignore line: [COMPILER_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'cmTC_8dd62' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'cmTC_8dd62.']
+  link line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/collect2 -plugin /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/liblto_plugin.so -plugin-opt=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdfd1td.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_8dd62 /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/crtbegin.o -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1 -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/crtend.o /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdfd1td.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8dd62] ==> ignore
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/crtbegin.o] ==> ignore
+    arg [-L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1] ==> dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1]
+    arg [-L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc] ==> dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc]
+    arg [-L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_8dd62.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/crtend.o] ==> ignore
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/11.3.1]
+  collapse library dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc]
+  collapse library dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/lib]
+  collapse library dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/11.3.1;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/lib;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fda7a/fast && /usr/bin/make -f CMakeFiles/cmTC_fda7a.dir/build.make CMakeFiles/cmTC_fda7a.dir/build
+make[1]: Entering directory '/home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fda7a.dir/testCXXCompiler.cxx.o
+/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_fda7a.dir/testCXXCompiler.cxx.o -c /home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_fda7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fda7a.dir/link.txt --verbose=1
+/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_fda7a.dir/testCXXCompiler.cxx.o  -o cmTC_fda7a 
+make[1]: Leaving directory '/home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d1a45/fast && /usr/bin/make -f CMakeFiles/cmTC_d1a45.dir/build.make CMakeFiles/cmTC_d1a45.dir/build
+make[1]: Entering directory '/home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o
+/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-g++    -v -o CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/arm-linux-gnueabihf-g++
+Target: arm-linux-gnueabihf
+Configured with: '/home/tcwg-buildslave/workspace/tcwg-gnu-build/snapshots/gcc.git~releases~gcc-11/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-linux-gnueabihf
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (GCC) 
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_d1a45.dir/'
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/ -isysroot /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d1a45.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mabi=aapcs-linux -mfpu=neon-vfpv4 -marm -mfloat-abi=hard -mcpu=cortex-a7 -mtls-dialect=gnu -mlibarch=armv7ve+simd -march=armv7ve+simd -version -o /tmp/ccCnMBtL.s
+GNU C++17 (GCC) version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (arm-linux-gnueabihf)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1"
+ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1/arm-linux-gnueabihf/."
+ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1/backward"
+ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/include"
+ignoring nonexistent directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include/arm-linux-gnueabihf"
+ignoring nonexistent directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include"
+ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed"
+ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include"
+ignoring nonexistent directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/arm-linux-gnueabihf"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1/arm-linux-gnueabihf/.
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1/backward
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include
+End of search list.
+GNU C++17 (GCC) version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (arm-linux-gnueabihf)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: cb67fcad3bda1df4555ced161947dcf1
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_d1a45.dir/'
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCnMBtL.s
+GNU assembler version 2.37 (arm-linux-gnueabihf) using BFD version (Linaro_Binutils-2022.06) 2.37.20220122
+COMPILER_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_d1a45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1a45.dir/link.txt --verbose=1
+/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-g++      -v CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d1a45 
+Using built-in specs.
+COLLECT_GCC=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/arm-linux-gnueabihf-g++
+COLLECT_LTO_WRAPPER=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: '/home/tcwg-buildslave/workspace/tcwg-gnu-build/snapshots/gcc.git~releases~gcc-11/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-linux-gnueabihf
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (GCC) 
+COMPILER_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'cmTC_d1a45' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'cmTC_d1a45.'
+ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/collect2 -plugin /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/liblto_plugin.so -plugin-opt=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdsl65c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_d1a45 /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/crtbegin.o -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1 -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/crtend.o /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'cmTC_d1a45' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'cmTC_d1a45.'
+make[1]: Leaving directory '/home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1]
+    add: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1/arm-linux-gnueabihf/.]
+    add: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1/backward]
+    add: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include]
+    add: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed]
+    add: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include]
+    add: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/include/c++/11.3.1]
+  collapse include dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1/arm-linux-gnueabihf/.] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/include/c++/11.3.1/arm-linux-gnueabihf]
+  collapse include dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1/backward] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/include/c++/11.3.1/backward]
+  collapse include dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/11.3.1/include]
+  collapse include dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed]
+  collapse include dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/include]
+  collapse include dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/include/c++/11.3.1;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/include/c++/11.3.1/arm-linux-gnueabihf;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/include/c++/11.3.1/backward;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/11.3.1/include;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/include;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d1a45/fast && /usr/bin/make -f CMakeFiles/cmTC_d1a45.dir/build.make CMakeFiles/cmTC_d1a45.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lyu/LVGL-TCAM3/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-g++    -v -o CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/arm-linux-gnueabihf-g++]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: '/home/tcwg-buildslave/workspace/tcwg-gnu-build/snapshots/gcc.git~releases~gcc-11/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_d1a45.dir/']
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/ -isysroot /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d1a45.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mabi=aapcs-linux -mfpu=neon-vfpv4 -marm -mfloat-abi=hard -mcpu=cortex-a7 -mtls-dialect=gnu -mlibarch=armv7ve+simd -march=armv7ve+simd -version -o /tmp/ccCnMBtL.s]
+  ignore line: [GNU C++17 (GCC) version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1"]
+  ignore line: [ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1/arm-linux-gnueabihf/."]
+  ignore line: [ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1/backward"]
+  ignore line: [ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/include"]
+  ignore line: [ignoring nonexistent directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include/arm-linux-gnueabihf"]
+  ignore line: [ignoring nonexistent directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [ignoring nonexistent directory "/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/arm-linux-gnueabihf"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1]
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1/arm-linux-gnueabihf/.]
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include/c++/11.3.1/backward]
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include]
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/include-fixed]
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/include]
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: cb67fcad3bda1df4555ced161947dcf1]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_d1a45.dir/']
+  ignore line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCnMBtL.s]
+  ignore line: [GNU assembler version 2.37 (arm-linux-gnueabihf) using BFD version (Linaro_Binutils-2022.06) 2.37.20220122]
+  ignore line: [COMPILER_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_d1a45]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1a45.dir/link.txt --verbose=1]
+  ignore line: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-linux-gnueabihf-g++      -v CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d1a45 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/arm-linux-gnueabihf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: '/home/tcwg-buildslave/workspace/tcwg-gnu-build/snapshots/gcc.git~releases~gcc-11/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb] (GCC) ]
+  ignore line: [COMPILER_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=neon-vfpv4' '-marm' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'cmTC_d1a45' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'cmTC_d1a45.']
+  link line: [ /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/collect2 -plugin /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/liblto_plugin.so -plugin-opt=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdsl65c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_d1a45 /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/crtbegin.o -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1 -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/crtend.o /home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../libexec/gcc/arm-linux-gnueabihf/11.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdsl65c.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d1a45] ==> ignore
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/crtbegin.o] ==> ignore
+    arg [-L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1] ==> dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1]
+    arg [-L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc] ==> dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc]
+    arg [-L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_d1a45.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/crtend.o] ==> ignore
+    arg [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/11.3.1]
+  collapse library dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc]
+  collapse library dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/11.3.1/../../../../arm-linux-gnueabihf/lib] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/lib]
+  collapse library dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/11.3.1;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/lib/gcc;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/opt/ext-toolchain/arm-linux-gnueabihf/lib;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib;/home/lyu/LVGL-TCAM3/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-linux-gnueabihf-gcc (GCC) 11.3.1 20220604 [releases/gcc-11 revision 591c0f4b92548e3ae2e8173f4f93984b1c7f62bb]
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+

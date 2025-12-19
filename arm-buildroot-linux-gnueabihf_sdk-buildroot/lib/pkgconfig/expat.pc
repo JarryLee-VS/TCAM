@@ -1,0 +1,11 @@
+prefix=/home/zyl/code/T113-Tina5.0-V1.2/out/t113/tcam/buildroot/buildroot/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: expat
+Version: 2.2.6
+Description: expat XML parser
+URL: http://www.libexpat.org
+Libs: -L${libdir} -lexpat
+Cflags: -I${includedir}

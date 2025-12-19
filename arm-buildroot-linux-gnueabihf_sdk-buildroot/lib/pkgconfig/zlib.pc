@@ -1,0 +1,13 @@
+prefix=/home/zyl/code/T113-Tina5.0-V1.2/out/t113/tcam/buildroot/buildroot/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

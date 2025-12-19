@@ -1,0 +1,13 @@
+prefix=/home/zyl/code/T113-Tina5.0-V1.2/out/t113/tcam/buildroot/buildroot/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: confuse
+Version: 3.2.2
+Description: configuration file parser library
+Requires: 
+Libs: -L${libdir} -lconfuse 
+Cflags: -I${includedir}
+

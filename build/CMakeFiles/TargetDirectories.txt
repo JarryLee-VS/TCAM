@@ -1,0 +1,17 @@
+/home/lyu/LVGL-TCAM3/build/CMakeFiles/install/strip.dir
+/home/lyu/LVGL-TCAM3/build/CMakeFiles/install/local.dir
+/home/lyu/LVGL-TCAM3/build/CMakeFiles/install.dir
+/home/lyu/LVGL-TCAM3/build/CMakeFiles/list_install_components.dir
+/home/lyu/LVGL-TCAM3/build/CMakeFiles/rebuild_cache.dir
+/home/lyu/LVGL-TCAM3/build/CMakeFiles/edit_cache.dir
+/home/lyu/LVGL-TCAM3/build/CMakeFiles/TCAM.dir
+/home/lyu/LVGL-TCAM3/build/libs/lvgl/CMakeFiles/install/strip.dir
+/home/lyu/LVGL-TCAM3/build/libs/lvgl/CMakeFiles/install/local.dir
+/home/lyu/LVGL-TCAM3/build/libs/lvgl/CMakeFiles/install.dir
+/home/lyu/LVGL-TCAM3/build/libs/lvgl/CMakeFiles/list_install_components.dir
+/home/lyu/LVGL-TCAM3/build/libs/lvgl/CMakeFiles/rebuild_cache.dir
+/home/lyu/LVGL-TCAM3/build/libs/lvgl/CMakeFiles/lvgl_demos.dir
+/home/lyu/LVGL-TCAM3/build/libs/lvgl/CMakeFiles/edit_cache.dir
+/home/lyu/LVGL-TCAM3/build/libs/lvgl/CMakeFiles/lvgl_examples.dir
+/home/lyu/LVGL-TCAM3/build/libs/lvgl/CMakeFiles/lvgl_thorvg.dir
+/home/lyu/LVGL-TCAM3/build/libs/lvgl/CMakeFiles/lvgl.dir

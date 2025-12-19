@@ -1,0 +1,10 @@
+prefix=/usr
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: librlottie
+Description: A Library for rendering lottie files.
+Version: 0.2
+Libs: -L${libdir} -lrlottie
+Libs.private: -ldl -pthread
+Cflags: -I${includedir}

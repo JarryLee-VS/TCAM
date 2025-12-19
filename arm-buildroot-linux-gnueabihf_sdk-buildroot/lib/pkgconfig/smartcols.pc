@@ -1,0 +1,10 @@
+prefix=/home/zyl/code/T113-Tina5.0-V1.2/out/t113/tcam/buildroot/buildroot/host
+exec_prefix=/home/zyl/code/T113-Tina5.0-V1.2/out/t113/tcam/buildroot/buildroot/host
+libdir=/home/zyl/code/T113-Tina5.0-V1.2/out/t113/tcam/buildroot/buildroot/host/lib
+includedir=/home/zyl/code/T113-Tina5.0-V1.2/out/t113/tcam/buildroot/buildroot/host/include
+
+Name: smartcols
+Description: table or tree library
+Version: 2.33.0
+Cflags: -I${includedir}/libsmartcols
+Libs: -L${libdir} -lsmartcols
